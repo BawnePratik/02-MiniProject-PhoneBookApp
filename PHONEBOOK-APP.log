@@ -1,0 +1,69 @@
+2021-06-02 16:32:22.892  INFO 14836 --- [main] com.ashokit.ApplicationTests             : Starting ApplicationTests using Java 1.8.0_181 on DESKTOP-4GPLKBM with PID 14836 (started by user in E:\12-JRTP-MiniAndMajorProject\01-MiniProject-PhoneBookApp)
+2021-06-02 16:32:22.979  INFO 14836 --- [main] com.ashokit.ApplicationTests             : No active profile set, falling back to default profiles: default
+2021-06-02 16:32:35.446  INFO 14836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-02 16:32:35.730  INFO 14836 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242 ms. Found 1 JPA repository interfaces.
+2021-06-02 16:32:38.588  INFO 14836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-02 16:32:39.730  INFO 14836 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-02 16:32:40.071  INFO 14836 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-02 16:32:40.381  INFO 14836 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-06-02 16:32:40.942  INFO 14836 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-02 16:32:42.130  INFO 14836 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-02 16:32:44.431  INFO 14836 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-02 16:32:44.479  INFO 14836 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-02 16:32:46.751  WARN 14836 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-02 16:32:47.762  INFO 14836 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-02 16:32:49.387  INFO 14836 --- [main] com.ashokit.ApplicationTests             : Started ApplicationTests in 27.487 seconds (JVM running for 32.296)
+2021-06-02 16:32:50.089  INFO 14836 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-02 16:32:50.094  INFO 14836 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-02 16:32:50.099  INFO 14836 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-06-02 16:32:50.169  INFO 14836 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-02 16:32:50.237  INFO 14836 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-02 19:18:38.004  INFO 9808 --- [restartedMain] com.ashokit.Application                  : Starting Application using Java 1.8.0_181 on DESKTOP-4GPLKBM with PID 9808 (E:\12-JRTP-MiniAndMajorProject\01-MiniProject-PhoneBookApp\target\classes started by user in E:\12-JRTP-MiniAndMajorProject\01-MiniProject-PhoneBookApp)
+2021-06-02 19:18:38.035  INFO 9808 --- [restartedMain] com.ashokit.Application                  : No active profile set, falling back to default profiles: default
+2021-06-02 19:18:38.129  INFO 9808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-02 19:18:38.130  INFO 9808 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-02 19:18:39.382  INFO 9808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-02 19:18:39.457  INFO 9808 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2021-06-02 19:18:40.557  INFO 9808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-06-02 19:18:40.583  INFO 9808 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-02 19:18:40.584  INFO 9808 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-06-02 19:18:41.225  INFO 9808 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-06-02 19:18:41.238  INFO 9808 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-02 19:18:41.239  INFO 9808 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3107 ms
+2021-06-02 19:18:41.335  INFO 9808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-02 19:18:41.558  INFO 9808 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-02 19:18:41.585  INFO 9808 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-06-02 19:18:41.912  INFO 9808 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-02 19:18:41.988  INFO 9808 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-06-02 19:18:42.315  INFO 9808 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-02 19:18:42.490  INFO 9808 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-02 19:18:43.609  INFO 9808 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-02 19:18:43.624  INFO 9808 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-02 19:18:43.749  INFO 9808 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-02 19:18:44.339  WARN 9808 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-02 19:18:44.535  INFO 9808 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-02 19:18:44.965  INFO 9808 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-06-02 19:18:44.979  INFO 9808 --- [restartedMain] com.ashokit.Application                  : Started Application in 7.77 seconds (JVM running for 9.567)
+2021-06-02 19:19:18.898  INFO 9808 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-02 19:19:18.899  INFO 9808 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-02 19:19:18.902  INFO 9808 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-02 19:19:18.943  INFO 9808 --- [http-nio-9090-exec-1] c.ashokit.controller.ContactController   : **** Info Level loadForm() method executed successfully..!!****
+2021-06-02 19:19:23.624  INFO 9808 --- [http-nio-9090-exec-3] c.ashokit.controller.ContactController   : ********Info Level Contacts Are Not available in DB********
+2021-06-02 19:19:23.625  INFO 9808 --- [http-nio-9090-exec-3] c.ashokit.controller.ContactController   : *******Info Level ViewContacts execution completed successfully******
+2021-06-02 19:19:25.788  INFO 9808 --- [http-nio-9090-exec-4] c.ashokit.controller.ContactController   : **** Info Level loadForm() method executed successfully..!!****
+2021-06-02 19:20:19.532  INFO 9808 --- [http-nio-9090-exec-3] c.ashokit.controller.ContactController   : Info Level Contact Saved Successfully into Database
+2021-06-02 19:20:21.316  INFO 9808 --- [http-nio-9090-exec-9] c.ashokit.controller.ContactController   : *******Info Level ViewContacts execution completed successfully******
+2021-06-02 19:20:43.416  INFO 9808 --- [http-nio-9090-exec-5] c.ashokit.controller.ContactController   : ****Info Level Contact deleted successfully*****
+2021-06-02 19:20:43.449  INFO 9808 --- [http-nio-9090-exec-2] c.ashokit.controller.ContactController   : ********Info Level Contacts Are Not available in DB********
+2021-06-02 19:20:43.450  INFO 9808 --- [http-nio-9090-exec-2] c.ashokit.controller.ContactController   : *******Info Level ViewContacts execution completed successfully******
+2021-06-02 19:20:55.276  INFO 9808 --- [http-nio-9090-exec-1] c.ashokit.controller.ContactController   : **** Info Level loadForm() method executed successfully..!!****
+2021-06-02 19:21:15.697  INFO 9808 --- [http-nio-9090-exec-5] c.ashokit.controller.ContactController   : Info Level Contact Saved Successfully into Database
+2021-06-02 19:21:16.969  INFO 9808 --- [http-nio-9090-exec-4] c.ashokit.controller.ContactController   : *******Info Level ViewContacts execution completed successfully******
+2021-06-02 19:21:37.091  INFO 9808 --- [http-nio-9090-exec-9] c.ashokit.controller.ContactController   : *******Info Level ViewContacts execution completed successfully******
+2021-06-02 19:23:18.510  INFO 9808 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-06-02 19:23:19.006  INFO 9808 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-02 19:23:19.006  INFO 9808 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-02 19:23:19.006  INFO 9808 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-06-02 19:23:19.254  WARN 9808 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-06-02 19:23:19.254  INFO 9808 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-02 19:23:19.262  INFO 9808 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
